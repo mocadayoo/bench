@@ -39,5 +39,6 @@ export default class Benchmark {
             console.log(`${index + 1}: ${name} - ${timeStr}${unit}`);
         })
         console.log('Winner:', this.results[0].name);
+        this.results = [];
     }
 }
