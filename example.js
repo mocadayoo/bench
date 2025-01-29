@@ -18,3 +18,8 @@ const fns = {
 };
 
 bench.bench(fns);
+
+/* Results:
+1: For Loop - 838.50μs
+2: While Loop - 1.13ms
+Winner: For Loop */
