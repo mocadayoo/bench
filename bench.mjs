@@ -1,4 +1,4 @@
-class Benchmark {
+export default class Benchmark {
     constructor() {
         this.results = [];
     }
